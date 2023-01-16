@@ -1,35 +1,41 @@
 @-moz-document domain("webshopapp.com") {
-    .PageHeader,
-    .editor .editor-sidebar .accordion .body,
-    .editor .editor-toolbar {
-        background-color: #18191D;
-    }
-    .editor .editor-sidebar {
-        border-left: 1px solid #505765;
-    }
-    .cr-night-300, .cr-ph-1,
-    .editor .editor-sidebar ul li a,
-    .editor .editor-sidebar ul li a.active,
-    h4,
-    .editor .editor-sidebar ul li a .ico,
-    .editor .editor-sidebar ul li a .ico::before {
-        color: white;
-        font-weight: normal;
-        font-size: 16px;
-        text-shadow: none;
-        padding: 2px;
-    }
-    .PageHeader svg{
-        filter: invert(1);
-    }
-    .editor .editor-sidebar ul li a.active {
-        background: #5187E0;
-        padding: 2px;
-        border-radius: 0.1875rem;
-        
-    }
-    .fr.text-small {
-        color: white;
-        text-shadow: none;
-    }
+.PageHeader,
+.editor .editor-sidebar .accordion .body,
+.editor .editor-toolbar {
+    background-color: #18191D;
+}
+.editor .editor-sidebar {
+    border-left: 1px solid #505765;
+    box-shadow: 10px 10px 10px 10px rgba(255, 253, 254, 0.38);
+}
+.cr-night-300, .cr-ph-1,
+.editor .editor-sidebar ul li a,
+.editor .editor-sidebar ul li a.active,
+h4,
+.editor .editor-sidebar ul li a .ico,
+.editor .editor-sidebar ul li a .ico::before {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    text-shadow: none;
+    padding: 2px;
+    vertical-align: bottom;
+}
+.PageHeader svg{
+    filter: invert(1);
+}
+.editor .editor-sidebar ul li a.active {
+    background: #5187E0;
+    padding: 2px;
+    border-radius: 0.1875rem;
+    
+}
+.fr.text-small {
+    color: white;
+    text-shadow: none;
+}
+
+#theme-preview-topbar .cr-night-300, #theme-preview-topbar .cr-ph-1 {
+    color: initial;
+}
 }
